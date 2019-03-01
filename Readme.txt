@@ -19,7 +19,9 @@ Then power up th board.
 
 Additonal Config
 ----------------
-If after installation your axis are moving in the wrong direction or homeing is moving in the wrong direction, this can be configured by editing the config file on the micro SD card.  Instructions can be found at http://smoothieware.org/
+If after installation your axis are moving in the wrong direction or homeing is moving in the wrong direction, 
+this can be configured by editing the config file on the micro SD card.  
+Instructions can be found at http://smoothieware.org/
 
 ===============================
 Only use good quality SD cards!
