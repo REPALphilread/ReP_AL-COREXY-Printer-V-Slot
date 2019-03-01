@@ -14,8 +14,10 @@ MKSV1.3 Board
 -------------
 Put the config file and the firmware file on the micro SD card and plug it into the main Board.
 Then power up th board.
-(Do not put the files inside additonal folders. please copy it to the root directory of the SD card)
+(Do not put the files inside additonal folders. please copy it to the root directory of the micro SD card)
 
+
+Only use good quality SD cards!
 
 The very latest versions of SmoothiBoard can be found in the internet.
 
