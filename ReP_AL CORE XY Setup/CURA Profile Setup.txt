@@ -1,0 +1,9 @@
+
+Instructions how to add the ReP_AL CORE XY Profile
+--------------------------------------------------
+
+1. Add the custom printer using the settings described in the other txt document
+2. Goto Profile click the down arrow
+3. Select Manage Profiles
+4. Import
+5. Use the file     " CURA ReP_AL V.curaprofile  "   from the GITHUB site.

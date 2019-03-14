@@ -1,0 +1,59 @@
+
+Use the following settings in CURa for the ReP_AL COREXY V Slot
+---------------------------------------------------------------
+
+1. Go to printers
+2. Add
+3. Select Custom
+4. Name the printer -   ReP_AL CORE XY
+
+Printer Settings
+----------------
+
+X Width 300
+Y Width 300
+Z Height 300
+
+Build Plate Shape: Rectangluar
+Select : Heated Bed
+G Code Flavor: Marlin
+Number of Extruders : 1
+Gantry Height : 300mm
+
+
+
+Go to tab Extruder Tab
+----------------------
+Set Nozzle Size  	: 0.4mm
+Material Diameter 	: 1.75mm
+Nozzle Offset 		: 0mm
+Nozzle Offset y 	: 0mm
+Cooling Fan Number 	: 0
+
+
+
+Start Code:
+----------
+
+G28 ;Home
+G1 Z30.0 F1000 ;Raise Z Axis 30mm
+G92 E0 ; Prime the Extruder
+G1 F200 E15 ; 15mm of Filament Primed
+G1 Y150 F4000;
+G1 X150 F4000;
+G92 E0
+
+
+
+
+
+End Code
+--------
+
+M104 S0
+M140 S0
+G92 E1
+G1 E-1 F300
+G28 X0 Y0
+G1 E-10 F300
+M84
