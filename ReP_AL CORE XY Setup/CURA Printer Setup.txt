@@ -40,8 +40,8 @@ G28 ;Home
 G1 Z30.0 F1000 ;Raise Z Axis 30mm
 G92 E0 ; Prime the Extruder
 G1 F200 E15 ; 15mm of Filament Primed
-G1 Y150 F4000;
-G1 X150 F4000;
+G1 Y105 F4000;
+G1 X105 F4000;
 G92 E0
 
 
