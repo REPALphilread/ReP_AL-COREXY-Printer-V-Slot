@@ -19,6 +19,7 @@ Select : Heated Bed
 G Code Flavor: Marlin
 Number of Extruders : 1
 Gantry Height : 300mm
+Origin at center :  NO!  (no tick required)
 
 
 
