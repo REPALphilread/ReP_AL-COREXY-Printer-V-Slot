@@ -255,7 +255,7 @@ soft_endstop.halt           true         # Whether to issue a HALT state when hi
 
 # optional order in which axis will home, default is they all home at the same time,
 # if this is set it will force each axis to home one at a time in the specified order
-#homing_order                                 XYZ              # x axis followed by y then z last
+homing_order                                 XYZ              # x axis followed by y then z last
 
 # optional enable limit switches, actions will stop if any enabled limit switch is triggered
 alpha_limit_enable                          true            # set to true to enable X min and max limit switches
