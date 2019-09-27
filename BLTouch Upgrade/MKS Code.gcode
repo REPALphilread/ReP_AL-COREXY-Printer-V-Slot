@@ -15,7 +15,7 @@ switch.servo.pwm_period_ms                 20            # 20ms period, or 50Hz
 gamma_min_endstop            nc                 # normally 1.28. Change to nc to prevent conflict, not needed on Azteeg X5
 
 zprobe.enable                true               # set to true to enable a zprobe
-zprobe.probe_pin             1.28!^             # pin probe is attached to if NC remove the !, Azteeg X5 this is 1.29
+zprobe.probe_pin             1.28^              # pin probe is attached to if NC remove the !, Azteeg X5 this is 1.29
 zprobe.slow_feedrate         5                  # mm/sec probe feed rate
 #zprobe.debounce_ms          1                  # set if noisy
 zprobe.fast_feedrate         100                # move feedrate
