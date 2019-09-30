@@ -17,7 +17,7 @@ gamma_min_endstop            nc                 # normally 1.28. Change to nc to
 zprobe.enable                true               # set to true to enable a zprobe
 zprobe.probe_pin             1.28^              # pin probe is attached to if NC remove the !, Azteeg X5 this is 1.29
 zprobe.slow_feedrate         5                  # mm/sec probe feed rate
-#zprobe.debounce_ms          1                  # set if noisy
+zprobe.debounce_ms           1                  # set if noisy
 zprobe.fast_feedrate         100                # move feedrate
 zprobe.probe_height          5                  # how much above bed to start probe NB only needed for G32 on delta
 zprobe.return_feedrate       0                  # feedrate after a probe, default 0 is double of slow_feedrate (mm/s)
