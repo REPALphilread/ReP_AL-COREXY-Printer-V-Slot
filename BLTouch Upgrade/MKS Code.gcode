@@ -35,7 +35,7 @@ leveling-strategy.rectangular-grid.do_home              false
 leveling-strategy.rectangular-grid.probe_offsets        0,0,0    # Optional probe offsets from the nozzle or tool head
 leveling-strategy.rectangular-grid.save                 false    # If the saved grid is to be loaded on boot then this must be set to true
 leveling-strategy.rectangular-grid.initial_height       10       # will move to Z10 before the first probe
-mm_per_line_segment      
+mm_per_line_segment                                     1        # necessary for cartesians using rectangular-grid   
 
 
 
