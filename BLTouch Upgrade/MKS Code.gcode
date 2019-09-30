@@ -24,11 +24,24 @@ zprobe.return_feedrate       0                  # feedrate after a probe, defaul
 zprobe.max_z                 200                # maximum default travel for the probe command, will use gamma_max if not defined
 
 
+# Levelling Strategy Rectangle Grid
+#=========================================================================================
+leveling-strategy.rectangular-grid.enable               true     # The strategy must be enabled in the config, as well as the zprobe module.
+leveling-strategy.rectangular-grid.x_size               300      # size of bed in the X axis
+leveling-strategy.rectangular-grid.y_size               300      # size of bed in the Y axis
+leveling-strategy.rectangular-grid.size                 3 	     # The size of the grid, for example, 7 causes a 7x7 grid with 49 points. 
+                                                                 # Must be an odd number.
+leveling-strategy.rectangular-grid.do_home              false              
+leveling-strategy.rectangular-grid.probe_offsets        0,0,0    # Optional probe offsets from the nozzle or tool head
+leveling-strategy.rectangular-grid.save                 false    # If the saved grid is to be loaded on boot then this must be set to true
+leveling-strategy.rectangular-grid.initial_height       10       # will move to Z10 before the first probe
+mm_per_line_segment      
+
 
 
 # 3 Point Levelling strategy
 # =======================================
-leveling-strategy.three-point-leveling.enable       true            # Set to true to enable the leveling strategy that probes three points to define
+leveling-strategy.three-point-leveling.enable       false           # Set to true to enable the leveling strategy that probes three points to define
                                                                     # a plane and then keeps the Z parallel to that plane. This is useful if 
                                                                     # your Z plate/bed is not perfectly aligned with your XY gantry
 leveling-strategy.three-point-leveling.point1        100.0,30.0     # The first probe point (X, Y)
